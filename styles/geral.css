@@ -1,0 +1,70 @@
+:root {
+    --background: #cefaa9;
+    --accent: #5D730E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--background);
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #5D730E;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+nav{
+    padding-left: 20px;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#boxpesquisa{
+    padding-left: 10px;
+    width: 50vw;
+    border: 0;
+    background-color: var(--background);
+    height: 30px;
+    border-radius: 10px;
+}
+
+#pesquisa{
+    background-color: var(--accent);
+    color: white;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    margin-left: -20px;
+    height: 30px;
+}
+
+#stars{
+    color: var(--accent)
+}
+
+.logo{
+    font-size: 30px;
+    margin-top: -10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--accent);
+}
+
+
+
+.btn{
+    border: 0;
+    background-color: var(--accent) !important;
+}

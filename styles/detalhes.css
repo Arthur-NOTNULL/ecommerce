@@ -1,0 +1,28 @@
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+#description{
+    margin-top: 10vh;
+}
+
+#ratingDescription{
+    font-size: 11px;
+    color: rgb(168, 168, 168);
+}
+
+.img-container{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+  }
